@@ -1,1 +1,0 @@
-# conways-game-of-life

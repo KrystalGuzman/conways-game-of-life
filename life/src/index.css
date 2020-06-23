@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000 !important;
+  line-height: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.box {
+  display: inline-block;       
+  border: 1px solid rgb(137, 175, 87);
+  width: 15px;
+  height: 15px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  }
+
+.off {
+  background-color: rgb(2, 2, 2);
+}
+
+.on {
+  background-color: rgb(255, 255, 255);
+}
+  
+.box:hover { 
+  background: rgb(255, 239, 8);
+}
+
+.center {
+  margin: auto;
+  display: table;
+  margin-top: 10px;
+}
+
+.grid {
+  width: 150px;
+  line-height: 0;
+  margin: auto;
+  box-shadow: 0px 0px 20px white;
+  margin-top: 20px;
+}
+
+h1, h2, h3, h4 {
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+}
+
+h4 {
+  margin-top: 0px;
+}
+
+.button {
+  margin: 0 5px;
+  border: #ffffff 3px solid;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #20f5b5;
+  font-size: 20px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #faf8fa;
+  color: rgb(74, 233, 145);
+  font-weight: bold;
+
+}
+
+.container {
+  display: flex;
+}
+
+.textinfo {
+  background-color: white;
+  padding: 2%;
+  margin: 5%;
+}
+
+.boxcontent {
+  display: flex;
+}
+
+.game {
+  padding: 2%;
+  margin: 5%
+}

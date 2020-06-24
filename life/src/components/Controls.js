@@ -9,8 +9,6 @@ class Controls extends React.Component {
 	
 	
 	handleChange = (e) => {
-    	// event.preventDefault();
-		console.log(e.target.value);
 		this.props.gen(e.target.value);
 	};
 
@@ -34,6 +32,7 @@ class Controls extends React.Component {
 		];
 		return (
 			<div className="center">
+				{/* shows only pause or play */}
 				{this.props.playing ? (
 					<Button content="Pause" icon="pause" labelPosition="right" onClick={this.props.pauseButton} />
 				) : (
@@ -44,17 +43,9 @@ class Controls extends React.Component {
 				<Button content="Clear" icon="redo" labelPosition="right" onClick={this.props.clear} />
 				<Button.Group>
 					<Button content="Slow" icon="minus" labelPosition="left" onClick={this.props.slow} />
-					<Button.Or />
+					<Button.Or onClick={this.props.medium}/>
 					<Button content="Fast" icon="plus" labelPosition="right" onClick={this.props.fast} />
 				</Button.Group>
-
-				
-						{/* <Form.Input
-							placeholder="Enter generation..."
-							name="generation"
-							onChange={this.handleChange}
-						/> */}
-						
 
 				<Dropdown
 					placeholder="Select Grid Size"

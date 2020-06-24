@@ -6,7 +6,6 @@ class Description extends React.Component {
 		return (
 			<div>
 				<Popup trigger={<Button>Conway's Rules</Button>} flowing hoverable>
-					{/* <Grid divided columns={2}> */}
 					<Header as="h4">Rules for the Game of Life</Header>
 					<p>
 						The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square
@@ -54,8 +53,7 @@ class Description extends React.Component {
 								how it evolves.
 							</p>
 							<p>
-								It is Turing complete and can simulate a universal constructor or any other Turing
-								machine.
+								It is Turing complete and can simulate a universal constructor or any other Turing machine.
 							</p>
 						</Grid.Column>
 					</Grid>

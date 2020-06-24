@@ -6,18 +6,19 @@ class Description extends React.Component {
 		return (
 			<div>
 				<Popup trigger={<Button>Conway's Rules</Button>} flowing hoverable>
+					{/* <Grid divided columns={2}> */}
+					<Header as="h4">Rules for the Game of Life</Header>
+					<p>
+						The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square
+						cells.
+					</p>
+					<p>There are one of two possible states: live or dead, (or populated and unpopulated).</p>
+					<p>
+						Every cell interacts with its eight neighbours, which are the cells that are horizontally,
+						vertically, or diagonally adjacent.
+					</p>
+					<p>At each step in time, the following transitions occur:</p>
 					<Grid divided columns={2}>
-						<Header as="h4">Rules for the Game of Life</Header>
-						<p>
-							The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square
-							cells, each of which is in one of two possible states: live or dead, (or populated and
-							unpopulated).
-						</p>
-						<p>
-							Every cell interacts with its eight neighbours, which are the cells that are horizontally,
-							vertically, or diagonally adjacent.
-						</p>
-						<p>At each step in time, the following transitions occur:</p>
 						<Grid.Column textAlign="center">
 							<Header as="h4">Dead Cells</Header>
 							<p>If a dead cell has exactly 3 live neighbors it will come to life.</p>

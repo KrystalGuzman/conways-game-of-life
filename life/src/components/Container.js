@@ -151,7 +151,8 @@ class Container extends React.Component {
 		return (
 			<div class="boxcontent">
 				<div class="game">
-					<h1>Conway's Game of Life</h1>
+					<h1>Conway's</h1>
+          <h1>Game of Life</h1>
 					<Controls
 						next={this.nextButton}
 						playButton={this.playButton}

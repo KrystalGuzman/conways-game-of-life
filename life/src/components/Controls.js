@@ -2,12 +2,10 @@ import React from 'react';
 import { Button, Dropdown, Form } from 'semantic-ui-react';
 
 class Controls extends React.Component {
-	
 	handleDropdown = (event, { value }) => {
 		this.props.gridSize(value);
 	};
-	
-	
+
 	handleChange = (e) => {
 		this.props.gen(e.target.value);
 	};
@@ -43,7 +41,7 @@ class Controls extends React.Component {
 				<Button content="Clear" icon="redo" labelPosition="right" onClick={this.props.clear} />
 				<Button.Group>
 					<Button content="Slow" icon="minus" labelPosition="left" onClick={this.props.slow} />
-					<Button.Or onClick={this.props.medium}/>
+					<Button.Or onClick={this.props.medium} />
 					<Button content="Fast" icon="plus" labelPosition="right" onClick={this.props.fast} />
 				</Button.Group>
 

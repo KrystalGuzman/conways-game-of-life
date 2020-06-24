@@ -53,7 +53,8 @@ class Description extends React.Component {
 								how it evolves.
 							</p>
 							<p>
-								It is Turing complete and can simulate a universal constructor or any other Turing machine.
+								It is Turing complete and can simulate a universal constructor or any other Turing
+								machine.
 							</p>
 						</Grid.Column>
 					</Grid>

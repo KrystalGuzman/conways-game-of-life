@@ -4,7 +4,7 @@ import { Button, Grid, Header, Popup } from 'semantic-ui-react';
 class Description extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className="center">
 				<Popup trigger={<Button>Conway's Rules</Button>} flowing hoverable>
 					<Header as="h4">Rules for the Game of Life</Header>
 					<p>

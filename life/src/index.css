@@ -34,7 +34,7 @@ code {
 }
   
 .box:hover { 
-  background: rgb(255, 239, 8);
+  background: rgb(0, 255, 128);
 }
 
 .center {
@@ -48,7 +48,7 @@ code {
   line-height: 0;
   margin: auto;
   box-shadow: 0px 0px 20px white;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 h1, h2, h3, h4 {
@@ -86,17 +86,11 @@ h4 {
   display: flex;
 }
 
-.textinfo {
-  background-color: white;
-  padding: 2%;
-  margin: 5%;
-}
-
 .boxcontent {
   display: flex;
 }
 
 .game {
-  padding: 2%;
-  margin: 5%
+  padding: 1%;
+  margin: 1%;
 }
